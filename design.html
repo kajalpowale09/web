@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Hotel Reservation</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+      <body>
+        <!------NAV + frontpage---->
+        <div class="backimage">
+
+             <div class="menu">
+               <div class="leftmenu">
+                 <h4> THUNDER HOTEL</h4>
+               </div>
+               <div class="rightmenu">
+                
+                 <nav>
+                 <ul>
+                   <li id="firstlist"><a href="design.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT US</a></li>
+                   <li><a href="room.html">ROOMS</a></li>
+                   <li><a href="gallery.html">GALLERY</a></li>
+                   <LI><a href="design.html">BLOG</a></LI>
+                   <LI><a href="contact.html">CONTACT US</a></LI>
+                   
+                 </ul>
+                </nav>
+               </div>
+             </div>
+             <div class="text">
+               <h1>WELCOME TO THUNDER HOTEL</h1>
+               <h3>YOU JUST STAY HERE,YOU ENJOY YOUR STAY</h3>
+               <form method="get" action="/page2">
+               <button id="book" type="submit"><a href="Book.html" target="blank">BOOK Now</a></button>
+            </form>
+             </div>
+
+      </div><br><br>
+
+          <!------Rent of Rooms---------->
+             <div class="rent">
+               <div class="best">
+                 <h2>OUR BEST ROOMS</h12>
+                 <h3>The best room choseen by our customers</h3>
+               </div><br><br>
+               <div class="price">
+                 <div class="firstb">
+                   <img src="h2.jpg" id="inb">
+                   <h3>Luxary room</h3>
+                   <h4>Room Type:Luxary</h4>
+                   <h4>Max Occupancy:5</h4>
+                   <span id="pr">$567</span>
+                 </div>&nbsp;&nbsp;&nbsp;
+
+                 <div class="secb">
+                   <img src="h3.jpg" id="inb">
+                   <h3>Single room</h3>
+                   <h4>Room Type:Luxary</h4>
+                   <h4>Max Occupancy:1</h4>
+                   <span id="pr">$450</span>
+                 </div>&nbsp;&nbsp;&nbsp;
+
+                 <div class="thirdb">
+                  <img src="h4.jpg" id="inb">
+                  <h3>Double room</h3>
+                  <h4>Room Type:Luxary</h4>
+                   <h4>Max Occupancy:4</h4>
+                  <span id="pr">$600</span>
+                </div>&nbsp;&nbsp;&nbsp;
+
+                <div class="fourdb">
+                  <img src="fire.jpg" id="inb">
+                  <h3>Enjoy room</h3>
+                  <h4>Room Type:Luxary</h4>
+                   <h4>Max Occupancy:8</h4>
+                  <span id="pr">$800</span>
+                </div>
+                
+
+                
+               </div>
+             </div><br><br><br>
+      
+          <!-----BOOK HOTEL-->
+          <div class="bg-img">
+            <form class="container">
+              <h3 class="box">Book a room</h3>
+         <input type="text" class="name" id="name" placeholder="Name"><br><br>
+      <input type="number" class="phone" id="phone" placeholder="Phone"><br><br>
+      <input type="text" placeholder="Arrival date"
+                    onfocus="(this.type='date')"><br><br>
+                    <input type="text" placeholder="Depature date"
+                    onfocus="(this.type='date')"><br><br>  
+      <select id="Adults" name="Adults">
+        <option value="Adults 2">Adults </option>
+        <option value="Adults 3">Adults 3</option>
+        <option value="Adults 4">Adults 4</option>&nbsp;&nbsp;&nbsp;
+    </select><br><br>
+      <select id="Childern" name="Childern">
+        <option value="Childern 1">Childern 1</option>
+        <option value="Childern 2">Childern 2</option>
+        <option value="Childern 3">Childern 3</option>
+        <option value="Childern 4">Childern 4</option>
+      </select><br><br>
+      <!---------btn+script--------------->
+<button onclick="myFunction()" id="btn">BOOK NOW</button>
+         <script>
+           function myFunction() {
+            var txt;
+            if(confirm("Message send..")){
+               txt="YOU PRESSED OK!";
+           }
+           else{
+             txt = "YOU PRESSED CANCEL";
+
+           }
+          }      
+         </script>
+
+    </form>
+    </div>
+     </div>
+      </div>
+
+
+       <!------Gallery-------->
+      <div class="gallery-section">
+        <div class="linear-width">
+            <h1>Our Gallery</h1>
+            <div class="border"></div>
+            <div class="gallery">
+
+               <a href="img1.jpg" class="image">
+                   <img src="img1.jpg" alt="">
+               </a>
+
+               <a href="img2.jpg" class="image">
+                <img src="img2.jpg" alt="">
+            </a>
+            <a href="img3.jpg" class="image">
+              <img src="img3.jpg" alt="">
+          </a>
+          <a href="img4.jpg" class="image">
+            <img src="img4.jpg" alt="">
+        </a>
+        <a href="img5.jpg" class="image">
+          <img src="img5.jpg" alt="">
+      </a>
+      <a href="img6.jpg" class="image">
+        <img src="img6.jpg" alt="">
+    </a>
+    <a href="img7.jpg" class="image">
+      <img src="img7.jpg" alt="">
+  </a>
+  <a href="img8" class="image">
+    <img src="img8.jpg" alt="">
+</a>
+           </div>><br><br>
+
+
+           <!-------offer box------>
+         <div class="special">
+           <div class="offer">
+             <h2>Offers & Special Deals</h2>
+           </div><br><br>
+           <div class="mini-box">
+           <div class="box1">
+             <img src="car.jpg" class="car" alt="">
+             <h3 class="head">Transfer</h3>
+             <p>Free airport pick up for stays of 3 night or more.</p>
+           </div>&nbsp;&nbsp;
+           <div class="box2">
+            <img src="dinner.jpg" class="car" alt="">
+            <h3>Dinner</h3>
+            <p>Free airport pick up for stays of 3 night or more.</p>
+           </div>&nbsp;&nbsp;
+           <div class="box3">
+            <img src="dollar.jpg" class="car" alt="">
+            <h3>Long Stay Discount</h3>
+            <p>Stay 5 nights and save up to 5 percent on your reservation. </p>
+           </div>&nbsp;&nbsp;
+           <div class="box4">
+            <img src="purchase.jpg" class="car" alt="">
+            <h3>Advance Purchase</h3>
+            <p>Save up 10% for advanced booking on your reservation. </p>
+           </div>&nbsp;&nbsp;
+          </div>
+
+         </div>  
+
+         </div><br><br><br>
+
+         <!-------Footer----------->
+          <footer>
+            <div class="footer-content">
+              <h3>Hotel Booking</h3>
+              <p>In this website we are used to booing the rooms in hotel.</p>
+              <ul class="socials">
+                <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.google.com"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+            <div class="footer-bottom">
+              <p>copyright &copy;2020 codeopacity. designed by <span>kajal</span></p>
+            </div>
+          </footer>
+
+          
+           
+        
+       </body>
+      </html>
+
